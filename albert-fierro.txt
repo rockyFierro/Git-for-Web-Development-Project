@@ -100,9 +100,13 @@ https://codepen.io/rockyfierro/pen/gObBYYJ
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+	An inline element such as <span> does not cause a linebreak or take up the full width of the page, it is bounded by its tags. a block element has a width and height, it breaks the page and creates a new line.
     2. What happens when an element is positioned absolutely? 
+	It is taken out of the flow and positioned relatively to its nearest ancestor hat is NOT static
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	*i do not know right now , or do not understand the question.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+	display:block - divs, headers,footers; display:inline-span, img;inline-block would be a button
+    5. In your own words, explain the box model. What is the fix for the box model? i like to thing of it in trms of framing, traditional framing. a margin is where you would hang your picture, so far from the edge of the wall and celeing and other pictures, the border is the frame, is it an elegant small thing or fancy and big, padding is the well..padding, it give some space for your picture and where it is set inside of the frame. content is that art you have. but the model starts to take up too much space, it needs a lot of math to keep the same width and height that you want to set - a nice fix is the border-box display which conforms the content to fit the set width, and height while you make changes to padding and border.
 
 
